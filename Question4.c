@@ -1,20 +1,12 @@
 #include <stdio.h>
 
-int main() {
-    int length, breadth, area, perimeter;
-
-   
-    printf("Enter length of rectangle: ");
-    scanf("%f", &length);
-    printf("Enter width of rectangle: ");
-    scanf("%f", &breadth);
-
-   
-    area = length * breadth;
-    perimeter = 2 * (length + breadth);
-
-   
-    printf("Area of rectangle: %.2f\n", area);
-    printf("Perimeter of rectangle: %.2f\n", perimeter);
-    return 0;
+int main(){
+float radius , circumference , area ;
+ printf("ENTER THE RADIUS OF CIRCLE\n");
+ scanf("%f",&radius);
+circumference = 2.0 * 3.14 * radius ;
+printf("THE CIRCUMFERENCE OF CIRCLE IS %f\n",circumference);
+area = 3.14 * radius * radius ;
+printf("THE AREA OF CIRCLE IS %f\n",area);
+return 0 ;
 }
